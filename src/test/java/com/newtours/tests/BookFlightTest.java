@@ -2,6 +2,7 @@ package com.newtours.tests;
 
 import com.newtours.pages.*;
 import com.tests.BaseTest;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
