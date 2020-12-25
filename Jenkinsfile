@@ -11,7 +11,7 @@ pipeline {
         stage('Build Image') {
             steps {
                 //bat
-                sh "docker build -t='srikp/selenium-docker' ."
+                sh "docker build -t srikp/selenium-docker:${BUILD_NUMBER} ."
             }
         }
         stage('Push Image') {
